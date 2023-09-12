@@ -1,14 +1,14 @@
-# hash-s - format strings easier
+# hash-s - format strings
 
-Ehh, it can only works with the compile-time defined vars - so these defined within the `let` block are useless.
-
-## usage
+## installation
 
 Add `hash-s` to your `deps.edn`:
 ```clojure
 {:deps
  {io.github.vollcheck/hash-s {:git/sha "<commit hash here>"}}}
 ```
+
+## usage
 
 ```clojure
 (require '[hash-s])
