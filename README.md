@@ -25,4 +25,5 @@ https://github.com/opqdonut/hash-f
 ## todo
 
 - [ ] handle the maps (they produce `{}` which is detected as a string to replace
-- [ ] handle vars defined by `let`
+- [X] handle vars defined by `let`
+- [ ] create a `clj-kondo` rule for marking defined vars/let vars as used (for now they are highlighted as unused)
